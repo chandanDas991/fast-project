@@ -1,0 +1,323 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*======== common css start====== */
+nav{
+    background: #FAE3B6;
+    padding: 30px 0;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.box{
+    display: flex;
+   
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a{
+    background: black;
+    font-size: 24px;
+    padding: 24px 91px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: .4s;
+    display: inline-block;
+
+
+}
+a:hover{
+    background: transparent;
+    border-color:black ;
+    color: black;
+}
+/*========== common css end========== */
+
+/* ========Navber part start======= */
+nav .box{
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    column-gap: 60px;
+}
+nav ul li{
+    font-size: 24px;
+    font-weight: 600px;
+    color: black;
+    font-family: "Poppins", serif;
+}
+nav .button-part a{
+    background: #FAE3B6;
+    padding: 10px 28px;
+    border-radius: 10px;
+    color: black;
+    font-size: 24px;
+    display: inline-block;
+    font-weight: 600px;
+    font-family: "Poppins", serif;
+    border: 1px solid transparent;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);
+    transition: .4s;
+}
+nav .button-part a:first-child{
+    margin-right: 10px;
+}
+nav .button-part a:hover{
+    background:#FDBB57 ; 
+    border: 1px solid  #FAE3B6;
+}
+
+/* ========Navber part end======= */
+
+/*========= Banner Part Start =======*/
+.banner{
+    background: #FAE3B6;
+    padding-top: 117px;
+    padding-bottom: 185px;
+}
+.banner .box{
+
+}
+.banner .left h1{
+    font-size: 64px;
+    font-weight: 600;
+    color: black;
+    font-family: "Poppins", serif;
+    width: 545px;
+}
+.banner .left p{
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+    font-family: "Poppins", serif;
+    width: 540px;
+    padding-top: 34px;
+    padding-bottom: 78px;
+}
+
+.banner .left{
+    width: 50%;
+   
+}
+.banner .right{
+    width: 50%;
+   
+}
+/*========= Banner Part End =======*/
+
+/* <!--========== Collection Part Start======== --> */
+.Collection{
+    padding: 200px 0;
+
+}
+.Collection h2{
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 64px;
+    font-weight: 700px;
+    color: black;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.Collection .box{
+        justify-content: space-between;
+}
+.Collection .Collection-cart{
+    width: 350px;
+    height: 400px;
+   overflow: hidden;
+    position: relative;
+}
+.Collection .Collection-cart img{
+    width: 100%;
+    height: 100%;
+}
+.Collection .Collection-cart .overly{
+    width: 100%;
+    height: 100%;
+   
+    position: absolute;
+    top: 100%;
+    left: 0;
+   padding-top: 300px;
+   padding-left: 20px;
+   box-sizing: border-box;
+   border-radius: 20px;
+   transition: .5s;
+}
+.Collection .Collection-cart .overly a{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    font-family: "Poppins", serif;
+    background: white;
+    border-radius: 20px;
+    
+    padding: 9px 108px;
+
+}
+.Collection .Collection-cart:hover .overly{
+    top: 0;
+}
+
+/* <!--========== Collection Part End======== --> */
+
+/* <!--========== fashion Part Start======== --> */
+.fashion{
+    padding-bottom: 300px;
+}
+.fashion .box{
+    align-items: center;
+}
+.fashion .left{
+    width: 50%;
+  
+}
+.fashion .right{
+    width: 50%;
+    padding-left: 100px;
+   
+}
+.fashion .right h2{
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: black;
+    width: 434px;
+    padding-bottom: 63px;
+}
+.fashion .right p{
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    width: 443px;
+}
+.fashion .fashion-content{
+    position: relative;
+}
+.fashion .fun-fact{
+    width: 793px;
+   padding: 70px 0px;
+    background: #FEECC8;
+    position: absolute;
+    bottom: -201px;
+    right: 0;
+    border-radius: 20px;
+    z-index: -1;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fashion .fun-fact div{
+    border-right: 1px solid rgb(0, 0, 0, 0.6);
+    padding-right: 30px;
+}
+.fashion .fun-fact div:last-child{
+    border-right: 0;
+    padding-right: 0;
+}
+.fashion .fun-fact h4{
+    font-size: 64px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    color: black; 
+}
+.fashion .fun-fact p{
+    font-size: 28px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    color: black; 
+}
+/* <!--========== fashion Part end======== --> */
+
+/* <!--========== Product Part start======== --> */
+.Product{
+    background: #CFA485;
+   padding-top: 40px;
+   padding-bottom: 150px;
+}
+.Product .left{
+    width: 40%;
+   
+}
+
+.Product .left h2{
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+}
+.Product .left p{
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    width: 437px;
+    padding-top: 43px;
+    padding-bottom: 40px;
+}
+.Product .right{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.Product .right .card{
+    width: 366px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    background: white;
+}
+.Product .right .card img{
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+.Product .right .card .sub-box{
+    padding-top: 14px;
+    padding-left: 22px;
+    padding-bottom: 9px;
+
+}
+.Product .right .card ul{
+   display: flex;
+   column-gap: 7px;
+   
+}
+.Product .right .card ul li i{
+    color: #FFAF37;
+}
+.Product .right .card h4{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: #000;
+    padding-top: 12px;
+}
+.Product .right .card .price{
+    display: flex;
+    column-gap: 31px;
+}
+.Product .right .card .price p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    color: #C4C4C4;
+}
+.Product .right .card .price span{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    color: black;
+}
+/* <!--========== Product Part end======== --> */
